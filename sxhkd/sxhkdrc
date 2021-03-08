@@ -2,13 +2,13 @@
 # wm independent hotkeys
 #
 
+#launcher
+super + space
+	rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/polybar/shapes/scripts/rofi/launcher.rasi
+
 # terminal emulator
 super + Return
 	alacritty
-
-# program launcher
-super + @space
-	rofi -show run
 
 # make sxhkd reload its configuration files:
 super + Escape
